@@ -1,6 +1,9 @@
-# CXNLI-paper
+# C-XNLI: Croatian Extension of XNLI Dataset
 
-Croatian extension of The Cross-Lingual NLI Corpus (XNLI).
+## Abstract
+Comprehensive multilingual evaluations have been encouraged by emerging cross-lingual benchmarks and constrained by existing parallel datasets. To partially mitigate this limitation, we extended the Cross-lingual Natural Language Inference (XNLI) corpus with Croatian. The development and test sets were translated by a professional translator, and we show that Croatian is consistent with other XNLI dubs. The train set is translated using Facebook's 1.2B parameter m2m_100 model. We thoroughly analyze the Croatian train set and compare its quality with the existing machine-translated German set. The comparison is based on 2000 manually scored sentences per language using a variant of the Direct Assessment (DA) score commonly used at the Conference on Machine Translation (WMT). Our findings reveal that a less-resourced language like Croatian is still lacking in translation quality of longer sentences compared to German. However, both sets have a substantial amount of poor quality translations, which should be considered in translation-based training or evaluation setups.
+
+For additional details check out the [paper](https://aclanthology.org/TODO).
 ## Introduction
 - TODO
 
